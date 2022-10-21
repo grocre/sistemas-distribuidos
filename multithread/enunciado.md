@@ -1,0 +1,4 @@
+## Prog MultiThreading
+
+
+### Este trabalho é individual. Você deve implementar um servidor Multithreading e um cliente para contacta-lo na linguagem de sua escolha. O cliente deve enviar uma mensagem (pode ser uma string do tipo: "Pode me prestar um serviço?") e uma thread, no lado servidor, deve: aceitar a requisição de serviço, criar uma nova thread para que esta possa prestar o serviço (enviar uma mensagem do tipo: "Serviço prestado pela thread_i") e voltar a esperar uma nova requisição. O cliente, ao receber a mensagem do servidor, deve exibi-la. A submissão do trabalho deve ser um arquivo compactado contendo: o código do servidor e do cliente. Os arquivos em anexo são de um servidor em C, que não implementa multithreading.
